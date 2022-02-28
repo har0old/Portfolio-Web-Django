@@ -1,0 +1,27 @@
+{% extends 'core/base.html'%}
+
+{%block title%}inicio{%endblock%}
+
+{% block background %}{% load static %}{% static 'core/img/header3.jpg' %}{% endblock %}
+
+{%block header%}
+  <h1>Harold García</h1>
+  <span class="subheading">Ingeniero Electrónico - Programador Backend</span>
+{% endblock %}
+
+{%block content%} 
+<!-- Contenido Principal -->
+<div class="row">
+<div class="col-lg-3 col-md-4 offset-lg-1">
+    <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+</div>
+<div class="col-lg-7 col-md-8">
+    <h2 class="section-heading">Acerca de mí</h2>   
+    <p class="text-justify">Me apasiona la programación y el desarrollo Backend, es a lo que le dedico gran parte de mi tiempo, tengo experiencia en desarrollo de aplicaciones en Python, Django, MySQL, PostgreSQL, en el Frontend conocimientos de HTML, Bootstrap.</p>
+    <p>Estoy es búsqueda de oportunidades laborales que me permitan avanzar, crecer en conocimientos y desarrollo profesional.</p>
+</div>
+</div>
+    
+{%endblock%}
+
+ 
